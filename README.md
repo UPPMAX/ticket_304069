@@ -6,6 +6,13 @@ RT ticket 304069
 
 - User cannot demonstrate, due to a reported Bianca slowness that needs fixing
 - Either meet Tuesday 17 Dec afternoon, or ask another colleague to take over
+    - Decision: meet Tuesday 17 Dec 14:00
+
+From user:
+
+`module load rstudio` works fine,
+but `module load R_packages` and `module load rstudio`
+gives a problem. Those packages are needed!
 
 ## Hypotheses
 

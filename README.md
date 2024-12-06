@@ -2,6 +2,11 @@
 
 RT ticket 304069
 
+## Meeting notes 2024-12-06
+
+- User cannot demonstrate, due to a reported Bianca slowness that needs fixing
+- Either meet Tuesday 17 Dec afternoon, or ask another colleague to take over
+
 ## Hypotheses
 
 Most likely at the top

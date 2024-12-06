@@ -33,13 +33,14 @@ Which version?
 Is it allways the same version?
 Does it always take around the same time?
 
-Project    |Setting|R module version|Real loading time
------------|-------|----------------|-----------------
-Rackham    |SSH    |4.3.1           |0m0.758s
-sens2016001|SSH    |Unknown         |Unknown
-sens2023598|SSH    |4.3.1           |6m1.265s
-sens2023598|Website|4.3.1           |6m20.234s
-sens2017625|SSH    |4.3.1           |6m4.584s
+Project    |Setting                     |R module version|Real loading time
+-----------|----------------------------|----------------|-----------------
+Rackham    |SSH                         |4.3.1           |0m0.758s
+sens2016001|SSH                         |Unknown         |Unknown
+sens2023598|SSH                         |4.3.1           |6m1.265s
+sens2023598|Website                     |4.3.1           |6m20.234s
+sens2017625|SSH                         |4.3.1           |6m4.584s
+sens2017625|Website, interactive session|4.3.1           |7m41.433s
 
 This rejects H1.
 
@@ -68,6 +69,16 @@ gdb rstudio core.7641
 
 - How does the user start RStudio? `rstudio` or `rstudio &`?
 - Do I see a difference when I do it?
+
+
+Use sens2017625
+
+time interactive -A sens2017625 -n 2 -t 2:00:00
+time module load R_packages/4.3.1
+time module load RStudio/2023.12.1-402
+time rstudio
+time rstudio &
+
 
 ## Communication
 

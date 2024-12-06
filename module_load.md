@@ -8,14 +8,20 @@
 
 ## Answers
 
-Project    |Setting|R module version|Real loading time
------------|-------|----------------|-----------------
-Rackham    |SSH    |4.3.1           |0m0.758s
-sens2016001|SSH    |Unknown         |Unknown
-sens2023598|SSH    |4.3.1           |6m1.265s
-sens2023598|Website|4.3.1           |6m20.234s
-sens2017625|SSH    |4.3.1           |6m4.584s
+Project    |Setting                     |R module version|Real loading time
+-----------|----------------------------|----------------|-----------------
+Rackham    |SSH                         |4.3.1           |0m0.758s
+sens2016001|SSH                         |Unknown         |Unknown
+sens2023598|SSH                         |4.3.1           |6m1.265s
+sens2023598|Website                     |4.3.1           |6m20.234s
+sens2017625|SSH                         |4.3.1           |6m4.584s
+sens2017625|Website, interactive session|4.3.1           |7m41.433s
 
+## sens2017625, website, interactive session
+
+![](interactive_session_slow_too.png)
+
+Took 7m41.433 seconds
 
 ### sens2016001
 

@@ -41,6 +41,7 @@ sens2023598|SSH                         |4.3.1           |6m1.265s
 sens2023598|Website                     |4.3.1           |6m20.234s
 sens2017625|SSH                         |4.3.1           |6m4.584s
 sens2017625|Website, interactive session|4.3.1           |7m41.433s
+sens2017625|SSH, interactive session    |4.3.1           |7m13.111s
 
 This rejects H1.
 

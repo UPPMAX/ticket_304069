@@ -16,6 +16,27 @@ sens2023598|SSH                         |4.3.1           |6m1.265s
 sens2023598|Website                     |4.3.1           |6m20.234s
 sens2017625|SSH                         |4.3.1           |6m4.584s
 sens2017625|Website, interactive session|4.3.1           |7m41.433s
+sens2017625|SSH, interactive session    |4.3.1           |7m13.111s
+
+
+## sens2017625, SSH, interactive session
+
+```text
+[richel@sens2017625-b4 ~]$ time module load R_packages/4.3.1
+R_packages/4.3.1: Note that loading some spatial analysis packages, especially geo-related packages, might
+R_packages/4.3.1: require you to load additional modules prior to use. monocle3 is such a package. See
+R_packages/4.3.1: 'module help R_packages/4.3.1'
+
+R_packages/4.3.1: The RStudio packages pane is disabled when loading this module, due to RStudio slowdowns
+R_packages/4.3.1: because there are >20000 available packages. *All packages are still available.*  For 
+R_packages/4.3.1: more information and instructions to re-enable the packages pane (not recommended) see
+R_packages/4.3.1: 'module help R_packages/4.3.1'
+
+^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B
+real    7m13.111s
+user    0m0.906s
+sys     0m1.416s
+```
 
 ## sens2017625, website, interactive session
 

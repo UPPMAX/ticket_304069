@@ -8,13 +8,18 @@
 
 ## Answers
 
-Project|Setting|R module version|Time|
+Project    |Setting|R module version|Real loading time
+-----------|-------|----------------|-----------------
+Rackham    |SSH    |4.3.1           |0m0.758s
+sens2016001|SSH    |Unknown         |Unknown
+sens2023598|SSH    |4.3.1           |6m1.265s
+sens2023598|Website|4.3.1           |6m20.234s
+sens2017625|SSH    |4.3.1           |6m4.584s
 
 
 ### sens2016001
 
 ```
-
 richel@richel-N141CU:~$ ssh richel-sens2016001@bianca.uppmax.uu.se
 richel-sens2016001@bianca.uppmax.uu.se's password: 
 Last login: Sun Nov 10 19:17:03 2024 from vpnpool188-114.anst.uu.se
@@ -151,9 +156,12 @@ Last login: Fri Dec  6 08:39:34 2024 from vpnpool189-175.anst.uu.se
 * If you use ssh keys, you can get rid of this (second) prompt.            *
 ****************************************************************************
 ###############################################################d#####
+```
+
+I wanted to do the things below, but I gave up as the node does not start.
 
 
-
+```bash
 time module load R_packages/4.3.1
 module list
 ```

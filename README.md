@@ -4,13 +4,27 @@ RT ticket 304069
 
 - [communication](communication.md)
 
-## Meeting
+## Meeting 2024-12-18 9:00-10:00
 
-- Discuss open question 5
 - User shows complete process
     - Collect exact error messages
     - Try to run core file using `gdb rstudio core.something`
+    - Do `killall -bash` and run again
+- Check if Richel is added to the project, the meeting was rushed at the end
 
+## Meeting 2024-12-17 14:00-15:00
+
+- Discuss open question 5
+    - The program `-bash` still shows up in `htop`, directly
+      after logging into Bianca
+- User shows complete process
+    - Failed to get access to a Bianca compute noded, moved the
+      meeting to next day
+    - Collect exact error messages
+    - Try to run core file using `gdb rstudio core.something`
+    - Do `killall -bash` and run again
+- Add Richel to the project
+    - D will do so :-)
 
 ## Hypotheses
 

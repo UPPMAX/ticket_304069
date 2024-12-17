@@ -7,8 +7,9 @@ RT ticket 304069
 ## Meeting
 
 - Discuss open question 5
-- Use show complete process
+- User shows complete process
     - Collect exact error messages
+    - Try to run core file using `gdb rstudio core.something`
 
 
 ## Hypotheses

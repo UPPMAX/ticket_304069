@@ -4,6 +4,13 @@ RT ticket 304069
 
 - [communication](communication.md)
 
+## Meeting
+
+- Discuss open question 5
+- Use show complete process
+    - Collect exact error messages
+
+
 ## Hypotheses
 
 Most likely at the top

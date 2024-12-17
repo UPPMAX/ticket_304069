@@ -1,7 +1,65 @@
 # Communication
 
-## Old
-
+## Mon Nov 18 15:20:47 2024 user - Ticket created [Reply] [Comment]
+## Mon Nov 18 16:27:46 2024 BC (UPPMAX) - Correspondence added 10 minutes [Reply] [Comment]
+## Mon Nov 18 16:27:46 2024 The RT System itself - Given to BC (UPPMAX) 
+## Mon Nov 18 16:27:47 2024 The RT System itself - Status changed from 'new' to 'open'
+## Mon Nov 18 16:39:17 2024 user - Correspondence added [Reply] [Comment]
+## Mon Nov 18 19:59:54 2024 BC (UPPMAX) - Correspondence added 5 minutes [Reply] [Comment]
+## Mon Nov 18 20:06:15 2024 BC (UPPMAX) - Correspondence added 10 minutes [Reply] [Comment]
+## Tue Nov 19 09:21:38 2024 BC (UPPMAX) - Status changed from 'open' to 'resolved'
+## Tue Nov 19 11:29:27 2024 user - Correspondence added [Reply] [Comment]
+## Tue Nov 19 11:29:28 2024 The RT System itself - Status changed from 'resolved' to 'open'
+## Tue Nov 19 13:14:18 2024 BC (UPPMAX) - Correspondence added 10 minutes [Reply] [Comment]
+## Tue Nov 19 13:14:37 2024 BC (UPPMAX) - Status changed from 'open' to 'resolved'
+## Tue Nov 19 14:22:39 2024 user - Correspondence added [Reply] [Comment]
+## Tue Nov 19 14:22:41 2024 The RT System itself - Status changed from 'resolved' to 'open'
+## Tue Nov 19 14:50:16 2024 BC (UPPMAX) - Correspondence added 10 minutes [Reply] [Comment]
+## Tue Nov 19 15:16:00 2024 user - Ticket #303153: - Ticket created [Reply] [Comment]
+## Tue Nov 19 15:23:57 2024 user - Ticket #303154: - Ticket created [Reply] [Comment]
+## Tue Nov 19 15:43:09 2024 user - Correspondence added [Reply] [Comment]
+## Tue Nov 19 15:58:15 2024 AA (UPPMAX) - Ticket #303154: - Merged into #303084: Problems interacting with RStudio
+## Tue Nov 19 15:58:15 2024 AA (UPPMAX) - Ticket #303153: - Merged into #303084: Problems interacting with RStudio
+## Tue Nov 19 16:00:03 2024 AA (UPPMAX) - Ticket #303153: - Merged into #303084: Problems interacting with RStudio
+## Tue Nov 19 16:00:03 2024 AA (UPPMAX) - Merged into #303084: Problems interacting with RStudio
+## Tue Nov 19 16:21:26 2024 BC (UPPMAX) - Correspondence added [Reply] [Comment]
+## Tue Nov 19 16:26:22 2024 BC (UPPMAX) - Correspondence added 10 minutes [Reply] [Comment]
+## Tue Nov 19 16:27:39 2024 BC (UPPMAX) - Correspondence added [Reply] [Comment]
+## Tue Nov 19 16:28:26 2024 BC (UPPMAX) - Status changed from 'open' to 'resolved'
+## Thu Nov 21 14:20:05 2024 user - Correspondence added [Reply] [Comment]
+## Thu Nov 21 14:20:06 2024 The RT System itself - Status changed from 'resolved' to 'open'
+## Thu Nov 21 14:25:23 2024 user - Correspondence added [Reply] [Comment]
+## Mon Nov 25 13:01:13 2024 BC (UPPMAX) - Correspondence added 5 minutes [Reply] [Comment]
+## Mon Nov 25 14:14:53 2024 user - Correspondence added [Reply] [Comment]
+## Mon Nov 25 14:43:49 2024 BC (UPPMAX) - Correspondence added [Reply] [Comment]
+## Mon Nov 25 14:50:24 2024 user - Correspondence added [Reply] [Comment]
+## Mon Nov 25 14:55:00 2024 BC (UPPMAX) - Correspondence added 5 minutes [Reply] [Comment]
+## Mon Nov 25 14:58:39 2024 user - Correspondence added [Reply] [Comment]
+## Mon Nov 25 15:02:06 2024 BC (UPPMAX) - Correspondence added 5 minutes [Reply] [Comment]
+## Mon Nov 25 15:09:31 2024 user - Correspondence added [Reply] [Comment]
+## Wed Nov 27 11:55:30 2024 BC (UPPMAX) - Comments added 30 minutes [Reply] [Comment]
+## Wed Nov 27 11:57:24 2024 BC (UPPMAX) - Correspondence added [Reply] [Comment]
+## Wed Nov 27 11:59:09 2024 BC (UPPMAX) - Correspondence added [Reply] [Comment]
+## Wed Nov 27 13:34:12 2024 user - Correspondence added [Reply] [Comment]
+## Wed Nov 27 13:48:16 2024 user - Correspondence added [Reply] [Comment]
+## Wed Nov 27 14:11:46 2024 BC (UPPMAX) - Correspondence added [Reply] [Comment]
+## Thu Nov 28 16:30:28 2024 BC (UPPMAX) - Correspondence added [Reply] [Comment]
+## Fri Nov 29 10:17:21 2024 user - Correspondence added [Reply] [Comment]
+## Mon Dec 02 08:59:48 2024 BC (UPPMAX) - Untaken
+## Mon Dec 02 13:35:51 2024 BC (UPPMAX) - Correspondence added 5 minutes [Reply] [Comment]
+## Mon Dec 02 13:35:53 2024 The RT System itself - Given to BC (UPPMAX) 
+## Mon Dec 02 16:04:15 2024 user - Correspondence added [Reply] [Comment]
+## Mon Dec 02 16:20:56 2024 BC (UPPMAX) - Correspondence added [Reply] [Comment]
+## Mon Dec 02 16:25:18 2024 BC (UPPMAX) - Correspondence added 10 minutes [Reply] [Comment]
+## Mon Dec 02 16:29:36 2024 user - Correspondence added [Reply] [Comment]
+## Mon Dec 02 16:43:06 2024 user - Correspondence added [Reply] [Comment]
+## Mon Dec 02 23:05:53 2024 BC (UPPMAX) - Correspondence added 5 minutes [Reply] [Comment]
+## Tue Dec 03 10:13:22 2024 user - Correspondence added [Reply] [Comment]
+## Tue Dec 03 11:07:51 2024 BC (UPPMAX) - Correspondence added [Reply] [Comment]
+## Tue Dec 03 11:27:45 2024 user - Correspondence added [Reply] [Comment]
+## Wed Dec 04 09:09:47 2024 BC (UPPMAX) - Correspondence added 5 minutes [Reply] [Comment]
+## Wed Dec 04 09:10:48 2024 BC (UPPMAX) - Status changed from 'open' to 'resolved'
+## 
 ## Mon, 18 Nov 2024 15:20:47
 
 I have been having problems with my interactive RStudio sessions on bianca since last Friday. The RStudio interface is quite sluggish and gets stuck either just loading or in doing a simple task like loading an R package (for example limma). I wonder if there is something that has gone awry with my project or what has changed to cause this. I encounter this even when bianca is not particularly busy. I have tried shutting down my virtual session and logging in again several times, as well as restarting my browser, and still encounter a sluggish session. Below are the commands I use:

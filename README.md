@@ -43,6 +43,13 @@ Most likely at the top
 
 For details, see [module_load.md](module_load.md)
 
+## Open question 5: is the memory profile OK?
+
+![20241119 memory profile](20241119_memory_profile.png)
+
+Note the `-bash` at the bottom. How did the user get this?
+What do I get?
+
 ## Open question 4: which exact errors does the user get?
 
 Errors when loading RStudio:

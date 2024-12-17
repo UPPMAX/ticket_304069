@@ -76,6 +76,11 @@ I am attaching the images here which show the issue from the interactive session
 ## Tue Nov 19 14:50:16 2024 BC (UPPMAX) - Correspondence added 10 minutes [Reply] [Comment]
 ## Tue Nov 19 15:16:00 2024 user - Ticket #303153: - Ticket created [Reply] [Comment]
 ## Tue Nov 19 15:23:57 2024 user - Ticket #303154: - Ticket created [Reply] [Comment]
+
+![20241119](20241119.png)
+
+![20241119 memory profile](20241119_memory_profile.png)
+
 ## Tue Nov 19 15:43:09 2024 user - Correspondence added [Reply] [Comment]
 ## Tue Nov 19 15:58:15 2024 AA (UPPMAX) - Ticket #303154: - Merged into #303084: Problems interacting with RStudio
 ## Tue Nov 19 15:58:15 2024 AA (UPPMAX) - Ticket #303153: - Merged into #303084: Problems interacting with RStudio

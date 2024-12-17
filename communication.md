@@ -1,5 +1,87 @@
 # Communication
 
+## Old
+
+## Mon, 18 Nov 2024 15:20:47
+
+I have been having problems with my interactive RStudio sessions on bianca since last Friday. The RStudio interface is quite sluggish and gets stuck either just loading or in doing a simple task like loading an R package (for example limma). I wonder if there is something that has gone awry with my project or what has changed to cause this. I encounter this even when bianca is not particularly busy. I have tried shutting down my virtual session and logging in again several times, as well as restarting my browser, and still encounter a sluggish session. Below are the commands I use:
+
+```
+## start an interactive session with a whole node ( I also tried variations of this with a few cores)
+interactive -A sens2023036 -p node -t 2-10
+
+## load R_packages module
+module load R_packages/4.3.1
+
+## load RStudio module
+module load RStudio/2023.12.1-402
+
+## start RStudio
+rstudio
+```
+
+
+The attached screenshots show the unchanged state of the session after several hours. I also noticed “core” files appearing in my home path. I am attaching a screenshot of those as well. Could there be an issue with my project specifically or what do you think could be explaining the lag? Many thanks in advance for your help!
+```
+
+[cid:image001.png@01DB39CB.4DB60380][cid:image002.png@01DB39CB.4DB60380][cid:image003.png@01DB39CB.56BFDB40]
+
+## Mon Nov 18 15:27:45 2024
+
+Try allocating at lease 2 cores fore the interactive session.
+You may also try the next-latest RStudio version, just before 2023.12., i.e. RStudio/2023.06.2-561.
+
+## Mon Nov 18 16:39:17
+
+Thanks for your quick reply. I have been allocating several cores with this. However, using a different RStudio module seems to have worked. Many thanks!
+
+
+## Mon Nov 18 19:59:54 2024
+
+Good it works!
+
+Sorry I missed that you tried a whole node.
+
+Which version of RStudio do you get when you just load it without version set?
+
+
+## Tue Nov 19 11:29:28 2024 The RT System itself - Status changed from 'resolved' to 'open'
+
+
+From your images it looks like you are still running on bianca login node.
+
+Are you sure you are starting RStudio from the terminal screen where the interactive sessions starts? You should have a "b<number>" address, not a "bianca" address.
+
+## Tue Nov 19 14:22:39 2024
+
+I am attaching the images here which show the issue from the interactive session (10 nodes) which I currently have running, called “sens2023036-b10”. Thanks!
+
+## Tuesday, 19 November 2024 at 13:14
+
+From your images it looks like you are still running on bianca login node.
+
+Are you sure you are starting RStudio from the terminal screen where the
+interactive sessions starts? You should have a "b<number>" address, not a
+"bianca" address.
+
+
+## Tue Nov 19 11:29:27 2024, user wrote:
+
+Hi Björn,
+
+Thanks for checking this. Indeed, I was using specific versions (R_packages/4.3.1
+and RStudio/2023.12.1-402) for reproducibility reasons. With RStudio it
+matters less so, so that’s ok. However today I am running into the same
+problems again, and even got an email that I am running out of memory when
+RStudio is simply trying to launch. I see RStudio open up but stuck (as in
+the screenshots I originally shared). This is with 10 nodes in my
+interactive session, so it’s a bit odd.
+
+I wonder if I broke something last week, when I had to ctrl+c in the
+terminal running RStudio to exit, since it was stuck and wouldn’t close.
+
+...
+
 ## Nov 18 15:20:47 2024
 
 > I have been having problems with my interactive RStudio sessions on bianca

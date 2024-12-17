@@ -50,6 +50,9 @@ They are in the `core_files` folder
 Do:
 
 ```bash
+interactive -A sens2017625 -n 2 -t 2:00:00
+module load R_packages/4.3.1
+module load RStudio/2023.12.1-402
 gdb rstudio core.7641
 ```
 

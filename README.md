@@ -17,12 +17,15 @@ RT ticket 304069
 - Check if Richel is added to the project, the meeting was rushed at the end
 - Misc
     - [Paper on predicting Slurm waiting time](https://github.com/mila-iqia/slurm-queue-time-pred)
-- [ ] Richel: Ask why getting an interactive node is slow,
-  even when project core usage is around zero (out of ten)
+- [x] Richel: Ask why getting an interactive node is slow,
+    
+![Question on Matrix](20241218_matrix.png)
+
 - [ ] Richel: make timings on:
-    - `interactive -A sens2017625 -n 2 -t 1:00:00`: added to [the UPPMAX documentation](https://docs.uppmax.uu.se/cluster_guides/cluster_speeds/)
-    - `interactive -A sens2017625 --partition devcore -n 2 -t 1:00:00`: added to [the UPPMAX documentation](https://docs.uppmax.uu.se/cluster_guides/cluster_speeds/)
-    - `interactive -A sens2023036 -n 2 -t 1:00:00`
+    - [x] `interactive -A sens2017625 -n 2 -t 1:00:00`: added to [the UPPMAX documentation](https://docs.uppmax.uu.se/cluster_guides/cluster_speeds/)
+    - [x] `interactive -A sens2017625 --partition devcore -n 2 -t 1:00:00`: added to [the UPPMAX documentation](https://docs.uppmax.uu.se/cluster_guides/cluster_speeds/)
+    - [ ] `interactive -A sens2023036 -n 2 -t 1:00:00`
+    - [ ] `interactive -A sens2023036 --partition devcore -n 2 -t 1:00:00`
 
 Attempt|You waited for `x` seconds|Complete time (secs)
 -------|--------------------------|--------------------

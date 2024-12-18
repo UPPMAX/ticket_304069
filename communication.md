@@ -157,3 +157,7 @@ From user:
 `module load rstudio` works fine,
 but `module load R_packages` and `module load rstudio`
 gives a problem. Those packages are needed!
+
+## Meeting 2024-12-17 14:00-15:00
+
+See [here](20241217_meeting/README.md)

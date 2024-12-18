@@ -1,5 +1,7 @@
 # H4. The `core.` files wll be helpful in finding the answer.
 
+What is the content of the `core.[number]` files?
+
 See 'Open question 2: reading the `core.` files.
 
 ## 'Open question 2: reading the `core.` files

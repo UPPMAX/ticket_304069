@@ -63,3 +63,13 @@ And then it appears:
 
 ![The Whisper desktop shortcut](whisper_icon_appeared.png)
 
+Then doing:
+
+```bash
+interactive -A sens2017625 -n 2 -t 2:00:00
+module load R_packages/4.3.1
+module load RStudio/2023.12.1-402
+rstudio
+```
+
+Still worked. There was no `-bash` in the `htop` list.

@@ -160,4 +160,8 @@ gives a problem. Those packages are needed!
 
 ## Meeting 2024-12-17 14:00-15:00
 
-See [here](20241217_meeting/README.md)
+See [here](20241217_meeting/README.md).
+
+## Meeting 2024-12-18 9:00-10:00 and 11:00-11:05
+
+See [here](20241218_meeting/README.md).

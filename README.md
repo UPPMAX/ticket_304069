@@ -8,12 +8,14 @@ RT ticket 304069
 
 - RStudio works fine without `R_packages`
 - Getting an interactive node takes more than two hours
+    - [x] Contacted my colleagues
 - There is a Whisper icon on the desktop
 
 ## Hypotheses
 
 Most likely at the top
 
+- [?] [H8: seeing the Whisper icon is relevant to the problem](hypothesis_8.md)
 - [?] [H6. The process `-bash` is relevant to the problem](hypothesis_6.md)
 - [?] [H7. The RStudio startup messages are relevant to the problem](hypothesis_7.md)
 - [POSSIBLE] H2. When trying out another Bianca project, a different setup was used.

@@ -7,8 +7,6 @@ RT ticket 304069
 ## Observations
 
 - RStudio works fine without `R_packages`
-- Getting an interactive node takes more than two hours
-    - [x] Contacted my colleagues
 - There is a Whisper icon on the desktop
 
 ## Hypotheses

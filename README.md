@@ -6,11 +6,17 @@ RT ticket 304069
 
 ## Meeting 2024-12-18 9:00-10:00
 
-- User shows complete process
+- Progress
+    - Asked colleagues about `-bash`
+- User shows complete process after starting a minimal interactive node
+  using `interactive -A sens2023036 -n 2 -t 1:00:00`
     - Collect exact error messages
-    - Try to run core file using `gdb rstudio core.something`
+    - Try to run core file using `gdb rstudio core.something`: expected to
+      fail
     - Do `killall -bash` and run again
 - Check if Richel is added to the project, the meeting was rushed at the end
+- Misc
+    - [Paper on predicting Slurm waiting time](https://github.com/mila-iqia/slurm-queue-time-pred)
 
 ## Observations
 

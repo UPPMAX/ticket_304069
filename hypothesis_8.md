@@ -4,7 +4,7 @@
 
 > The user has a Whisper icon
 
-## Experiment
+## Experiment #1
 
 When starting up, there is no Whisper icon on the desktop.
 
@@ -50,3 +50,16 @@ RStudio/2023.12.1-402: Sandboxing is not enabled for RStudio at UPPMAX. See 'mod
 ```
 
 RStudio took around a minute to start up and seems to work fine. No Whisper icon appeared on the desktop.
+
+## Experiment #2
+
+When starting up, there is no Whisper icon on the desktop.
+
+```
+module load whisper
+```
+
+And then it appears:
+
+![The Whisper desktop shortcut](whisper_icon_appeared.png)
+

@@ -7,6 +7,8 @@ RT ticket 304069
 ## Meeting of 2024-12-19 13:00
 
 - Progress
+    - can log in to user's project
+        - Found 'It tends to be a matter of minutes to less than hours before the changes propagate from SUPR to UPPMAX', from https://docs.uppmax.uu.se/getting_started/project_apply
     - can now start interactive nodes in project
     - login nodes should take less than 10 minutes to start
     - added measurements to UPPMAX documentation at

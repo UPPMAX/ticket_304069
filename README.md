@@ -4,6 +4,17 @@ RT ticket 304069
 
 - [communication](communication.md)
 
+## Postmortem
+
+There was a process called `-bash` (yes, a dash/minus before `bash`)
+which caused that:
+- RStudio never shows the files pane
+- RStudio never successfully runs an R command in the interpreter
+
+Killing `-bash` (using `kill -s 1 [PID]`, where `[PID]` is the process ID,
+in this case `11723`)(note that `killall -bash` did not work, as `killall`
+interpreted `-bash` as a flag :-) ) solved the problem.
+
 ## Meeting of 2024-12-19 13:00
 
 - Progress
@@ -29,6 +40,26 @@ rstudio
     - Try to run core file using `gdb rstudio core.something`: expected to
       fail
     - Do `killall -bash` and run again
+
+```
+13:00:42 From Richèl 'Rea-shell' Bilderbeek To Everyone:
+	module load R_packages/4.3.1
+	module load RStudio/2023.12.1-402
+	gdb rstudio core.7641
+	rstudio
+	killall -bash
+	rstudio
+13:06:18 From Richèl 'Rea-shell' Bilderbeek To Everyone:
+	killall -bash
+13:08:11 From Richèl 'Rea-shell' Bilderbeek To Everyone:
+	kill --signal 15 11723
+13:09:43 From Richèl 'Rea-shell' Bilderbeek To Everyone:
+	kill -s 1 11723
+13:20:07 From Richèl 'Rea-shell' Bilderbeek To Everyone:
+	module load R_packages/4.3.1
+	module load RStudio/2023.12.1-402
+```
+
 
 ## Observations
 

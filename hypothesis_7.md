@@ -1,5 +1,7 @@
 # H7. The RStudio startup messages are relevant to the problem)
 
+REJECTED.
+
 ## Open question 4: which exact errors does the user get?
 
 Errors when loading RStudio:

@@ -1,5 +1,7 @@
 # H6. The process `-bash` is the problem
 
+CONFIRMED! Killing it solved the problem.
+
 ## Open question 5: is the memory profile OK?
 
 ![20241119 memory profile](20241119_memory_profile.png)

@@ -165,3 +165,49 @@ See [here](20241217_meeting/README.md).
 ## Meeting 2024-12-18 9:00-10:00 and 11:00-11:05
 
 See [here](20241218_meeting/README.md).
+
+## Meeting of 2024-12-19 13:00
+
+- Progress
+    - can log in to user's project
+        - Found 'It tends to be a matter of minutes to less than hours before the changes propagate from SUPR to UPPMAX', from https://docs.uppmax.uu.se/getting_started/project_apply
+    - can now start interactive nodes in project
+    - login nodes should take less than 10 minutes to start
+    - added measurements to UPPMAX documentation at
+      [https://docs.uppmax.uu.se/cluster_guides/cluster_speeds/#starting-an-interactive-session-with-two-cores-for-one-hour](https://docs.uppmax.uu.se/cluster_guides/cluster_speeds/#starting-an-interactive-session-with-two-cores-for-one-hour)
+- User shows complete process after starting a minimal interactive node
+
+```bash
+interactive -A sens2017625 -n 2 -t `:00:00
+module load R_packages/4.3.1
+module load RStudio/2023.12.1-402
+gdb rstudio core.7641
+rstudio
+killall -bash
+rstudio
+```
+
+    - Collect exact error messages
+    - Try to run core file using `gdb rstudio core.something`: expected to
+      fail
+    - Do `killall -bash` and run again
+
+```
+13:00:42 From Richèl 'Rea-shell' Bilderbeek To Everyone:
+	module load R_packages/4.3.1
+	module load RStudio/2023.12.1-402
+	gdb rstudio core.7641
+	rstudio
+	killall -bash
+	rstudio
+13:06:18 From Richèl 'Rea-shell' Bilderbeek To Everyone:
+	killall -bash
+13:08:11 From Richèl 'Rea-shell' Bilderbeek To Everyone:
+	kill --signal 15 11723
+13:09:43 From Richèl 'Rea-shell' Bilderbeek To Everyone:
+	kill -s 1 11723
+13:20:07 From Richèl 'Rea-shell' Bilderbeek To Everyone:
+	module load R_packages/4.3.1
+	module load RStudio/2023.12.1-402
+```
+
